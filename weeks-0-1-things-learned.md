@@ -43,12 +43,17 @@ Useful article: [Python vs C: A Beginner’s Guide](https://www.udemy.com/blog/p
     else {}
 ```
 
-9. and, or, not: `&&` `||` `!`
-10. Switch statement is exactly same as JavaScript. Each case ends with: `break;`
-11. For-loop: also same syntax as JavaScript.
-12. `while (true) {}` -- infinite loop
-13. `do {} while ();`
-14. Declare a var (int, float, string, char, double, long long*):
+9\. and, or, not: `&&` `||` `!`
+
+10\. Switch statement is exactly same as JavaScript. Each case ends with: `break;`
+
+11\. For-loop: also same syntax as JavaScript.
+
+12\. `while (true) {}` -- infinite loop
+
+13\. `do {} while ();`
+
+14\. Declare a var (int, float, string, char, double, long long*):
 
 ```
 int counter;
@@ -57,13 +62,29 @@ counter = 0;
 
 Or just `int counter = 0;`
 
-15. printf supports:<br>
+15\. printf supports:<br>
 &nbsp;&nbsp;&nbsp;%s<br>
 &nbsp;&nbsp;&nbsp;%d<br>
 &nbsp;&nbsp;&nbsp;%c (char)<br>
 &nbsp;&nbsp;&nbsp;%f<br>
 &nbsp;&nbsp;&nbsp;%lld (*long long decimal integer)
 
-16. MUST use DOUBLE QUOTES on any **string.** Cannot use single quotes!
-17. MUST use SINGLE QUOTES on a **char.** Cannot use double quotes.
+16\. MUST use DOUBLE QUOTES on any **string.** Cannot use single quotes!
 
+17\. MUST use SINGLE QUOTES on a **char.** Cannot use double quotes.
+
+##Basic C program format
+
+```
+#include <stdio.h>
+
+int main(void)
+{
+    // stuff here
+}
+
+```
+
+The included library, *stdio,* handles user input at the command prompt.
+
+The function **main** returns 0 (an integer) by default. (Note: If it returns anything other than 0, that's an error. So you can force-quit by returning 1.) It accepts no parameters, so *void* must be explicitly stated in the parens. 
