@@ -91,3 +91,21 @@ int main(void)
 The included library, *stdio,* handles user input at the command prompt.
 
 The function **main** returns 0 (an integer) by default. (Note: If it returns anything other than 0, that's an error. So you can force-quit by returning 1.) It accepts no parameters, so *void* must be explicitly stated in the parens. 
+
+##The CS50 library
+
+```
+#include <stdio.h>
+#include <cs50.h>
+#include <math.h>
+
+int main(void)
+{
+    float amount = GetFloat();
+    int cents = round(amount * 100);
+}
+```
+
+See include at top of file. This lib includes some functions that "bulletproof" user input for us students, such as `GetFloat()`, `GetString()`, etc.
+
+`round()` comes from the *math* library.
