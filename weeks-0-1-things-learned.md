@@ -47,7 +47,8 @@ Useful article: [Python vs C: A Beginner’s Guide](https://www.udemy.com/blog/p
 
 10\. Switch statement is exactly same as JavaScript. Each case ends with: `break;`
 
-11\. For-loop: also same syntax as JavaScript.
+11\. For-loop: also same syntax as JavaScript. 
+`for (int i = 1; i <= number; i++) {}`
 
 12\. `while (true) {}` -- infinite loop
 
@@ -62,7 +63,7 @@ counter = 0;
 
 Or just `int counter = 0;`
 
-15\. printf supports:<br>
+15\. `printf` supports:<br>
 &nbsp;&nbsp;&nbsp;%s<br>
 &nbsp;&nbsp;&nbsp;%d<br>
 &nbsp;&nbsp;&nbsp;%c (char)<br>
@@ -72,6 +73,8 @@ Or just `int counter = 0;`
 16\. MUST use DOUBLE QUOTES on any **string.** Cannot use single quotes!
 
 17\. MUST use SINGLE QUOTES on a **char.** Cannot use double quotes.
+	
+18\. Newline is the usual: `\n`
 
 ##Basic C program format
 
