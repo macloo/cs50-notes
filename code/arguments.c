@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /* let's get a handle on passing arguments from the command line
-   This tiny program will tell you what arguments have be passed in
+   This tiny program will tell you what arguments have been passed in
    at runtime. Try it by typing ./arguments foo and bar ...
    */
 
