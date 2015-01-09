@@ -3,6 +3,10 @@
 
 /* this is a test of both a while-loop and a do-while-loop
    It seems to me a plain while-loop is simply more efficient. (?)
+   The answer: In some other program, the var's value might already 
+   exist, and I do not know the value yet, so then I really would 
+   need to use do-while. But in a case like below, the plain while 
+   is just as good as the do-while.
    */
 
 int GetPositiveInt1(void);
