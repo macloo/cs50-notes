@@ -76,6 +76,8 @@ In  `int main(void) {}`  there is an IMPLICIT `return 0;` at the end. At least i
 
 ##Use a do-while to ask for input until a condition is met
 
+Remember that the "do" part runs *once* no matter what. Then the condition is tested, and "do" will run again only if the condition is true. Note that the var `n` must be declared before and outside the "do" in this example.
+
 ```
 int GetPositiveInt(void)
 {
