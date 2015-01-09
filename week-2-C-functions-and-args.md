@@ -109,7 +109,9 @@ CHECK UPPER- OR LOWERCASE
 
 ARRAYS
 
-`int ages[n];`  - Creates a new array, ages. Oh my God, arrays are typed? Do you have to make a dictionary to mix types in one array?
+`int ages[n];`  - Creates a new array, ages. Oh my God, arrays are typed? Apparently, yes. (Do you have to make a dictionary to mix types in one array?) 
+
+NOTE that `n` MUST have a value. In other words, you must tell the array how many items it will hold. Otherwise you get an error (segmentation error, core dump). 
 
 ##ARGUMENTS
 
