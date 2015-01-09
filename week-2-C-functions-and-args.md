@@ -77,7 +77,7 @@ In  `int main(void) {}`  there is an IMPLICIT `return 0;` at the end. At least i
 ##Use a do-while to ask for input until a condition is met
 
 ```
-int GetPositiveInt(void);
+int GetPositiveInt(void)
 {
 	int n;
 	do
