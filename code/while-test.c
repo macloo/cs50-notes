@@ -2,7 +2,7 @@
 #include <cs50.h>
 
 /* this is a test of both a while-loop and a do-while-loop
-   It 
+   It seems to me a plain while-loop is simply more efficient. (?)
    */
 
 int GetPositiveInt1(void);
