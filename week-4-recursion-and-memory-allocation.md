@@ -124,3 +124,44 @@ Then to copy s into t, make a for-loop and inside it: `t[i] = s[i]`
 
 (end lecture 2)
 
+##gdb Commands
+
+**quit or q**
+
+Must run executable (e.g. `mario`, not `mario.c`)
+
+after `./mario`, wait for (gdb) prompt and then, if there are any command-line args, enter those now.
+
+Give gdb a _breakpoint _-- where you want it to pause: 
+
+**break or b**
+
+`break main` - pauses at _start_ of main
+
+**next or n**
+
+gdb is not going to write your print statements to the screen unless absolutely necessary, so don't expect that.
+
+**list or l** - prints the source code near the line we are on now
+
+If you want to check a var at any time, type `print n` (for var named n, duh) and gdb will print it on the next line.
+
+**print or p**
+
+We can also initialize a var in gdb with `print n = 1`, for example. Say we forgot to do that in our code.
+
+press Return/Enter - gdb repeats your previous command
+
+**run or r** - can type this again to re-run from the same breakpoint as before
+
+**info locals** - this prints all our local vars and their values
+
+**continue or c** - run it to the end
+
+**make mario** - you can do this inside gdb (assuming you have updated your C file in another window, that is)
+
+**disable** - gets rid of all the breakpoints you set before
+
+
+
+
