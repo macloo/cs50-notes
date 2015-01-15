@@ -163,5 +163,16 @@ press Return/Enter - gdb repeats your previous command
 **disable** - gets rid of all the breakpoints you set before
 
 
+##make (from pset3)
+
+Notice how `make` executes "a pretty long command for you, per the tool’s output. However, as your programs grow in size, `make` won’t be able to infer from context anymore how to compile your code; you’ll need to start telling `make` how to compile your program, particularly when they involve multiple source (i.e., .c) files. And so we’ll start relying on 'Makefiles,' configuration files that tell make exactly what to do.
+
+"How did `make` know how to compile `generate` in this case? It actually used a configuration file that we wrote. Using `gedit`, go ahead and look at the file called `Makefile` that’s in the same directory as `generate.c`. This `Makefile` is essentially a list of rules that we wrote for you that tells `make` how to build `generate` from `generate.c` for you. The relevant lines appear below."
+
+```
+generate: generate.c
+    clang -ggdb3 -O0 -std=c99 -Wall -Werror -o generate generate.c
+```
 
 
+See <http://cdn.cs50.net/2015/x/psets/3/pset3/pset3.html> for more. 
