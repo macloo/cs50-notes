@@ -124,6 +124,14 @@ Then to copy s into t, make a for-loop and inside it: `t[i] = s[i]`
 
 (end lecture 2)
 
+##How to start gdb
+
+gdb ./find
+
+break main
+
+run 12 // *or other integer, as the needle*
+
 ##gdb Commands
 
 **quit or q**
